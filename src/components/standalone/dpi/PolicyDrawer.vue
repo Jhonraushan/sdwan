@@ -185,7 +185,7 @@ async function saveRule() {
                 <font-awesome-icon :icon="['fas', 'diagram-project']" class="h-6 w-6" aria-hidden="true" />
                 <div class="flex flex-col">
                   <div class="font-medium">{{ item.name }}</div>
-                  <p class="text-xs text-gray-500">APP / {{ item.category.name }}</p>
+                  <!-- <p class="text-xs text-gray-500">APP / {{ item.category }}</p> -->
                 </div>
               </div>
               <NeToggle class="relative left-3" />
