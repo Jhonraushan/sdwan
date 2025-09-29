@@ -17,9 +17,8 @@ interface Rule {
   rule_name: string;
   enabled: boolean;
   action: string;
-  src_ip: string[];   // ❌ not in API
+  group: string;
   app_name: string[];
-  type: string;       // ❌ not in API
   describe: string;
 }
 
